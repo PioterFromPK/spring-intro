@@ -8,7 +8,7 @@ class MyNameMessageServiceTest {
 
     @Test
     public void shouldReturnMyNameAsMessage() {
-        String expectedMessage = "<your name>";
+        String expectedMessage = "Piotr Szkaradek";
         MyNameMessageService myNameMessageService = new MyNameMessageService();
 
         assertEquals(expectedMessage, myNameMessageService.getMessage());
